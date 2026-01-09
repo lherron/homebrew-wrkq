@@ -13,7 +13,7 @@ class Wrkq < Formula
 
   if Hardware::CPU.intel?
     url "https://github.com/lherron/wrkq/releases/download/v0.0.1/wrkq_0.0.1_macOS_x86_64.tar.gz"
-    sha256 "cc30b97b855eb4010870dd022d042fee64a2d5752515313c746f86fb42bbda0a"
+    sha256 "8519cbf8aebc5615f0d4dbfeb8dfed0d8b0e33678b13ac3d810e8b4d75594672"
 
     def install
       bin.install "wrkq"
@@ -22,7 +22,7 @@ class Wrkq < Formula
   end
   if Hardware::CPU.arm?
     url "https://github.com/lherron/wrkq/releases/download/v0.0.1/wrkq_0.0.1_macOS_arm64.tar.gz"
-    sha256 "82de751bb02c7fc279199a2f288418988d5cf8e9660597b3e4835b52e2a2ec92"
+    sha256 "0c0de565e870312daa14784dcd04ed3020ccb55db2405aeb37577cde7a59311b"
 
     def install
       bin.install "wrkq"
